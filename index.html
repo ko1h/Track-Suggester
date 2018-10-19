@@ -9,8 +9,10 @@
   </head>
   <body>
     <div class="container">
-     <h1>Tell Us About Yourself</h1>
-
+      <div class="jumbotron" clear>
+         <h1>Tell Us About Yourself</h1>
+         <p id="header">But I must explain to you how all this mistaken</p>
+       </div>
      <form id="track">
        <div class="form-group">
          <label for="name">Name:</label>
@@ -33,8 +35,8 @@
        </div>
 
        <div class="form-group">
-         <label for="important">Which of the following is the most important to you?</label>
-         <select id="important" class="form-control">
+         <label for="company">What kind of company do you see yourself working for?</label>
+         <select id="company" class="form-control">
            <option value="awesome">awesome </option>
            <option value="job">job</option>
            <option value="quick">quick up</option>
@@ -66,14 +68,16 @@
             </div>
             <div class="modal-body">
               <dl>
-                <dt>Your Name</dt>
+                <dt>Your Name:</dt>
                 <dd><span class="name"></span></dd>
-                <dt>Favorite Food</dt>
+                <dt>Your email:</dt>
                 <dd><span class="email"></span></dd>
-                <dt>Favorite Music</dt>
+                <dt>Program Intersts</dt>
+                <dd><span class="intersts"></span></dd>
+                <dt>company</dt>
                 <dd><span class="important"></span></dd>
                 <dt>front-end or back-end</dt>
-                <dd><span class="radio"></span></dd>
+                <dd><span class="dev"></span></dd>
               </dl>
             </div>
             <div class="modal-footer">
