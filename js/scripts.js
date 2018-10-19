@@ -1,20 +1,20 @@
 $(document).ready(function() {
-  $("form#booking").submit(function(event) {
+  $("form#track").submit(function(event) {
     event.preventDefault();
-    var nameInput = ($("#name").val());
-    $(".name").text(nameInput);
+    var companyinput = ($("#company").val());
+    $(".company").text(companyinput);
 
-    var foodInput = ($("#food").val());
-    $(".food").text(foodInput);
+    var interestsInput = ($("#interests").val());
+    $(".interests").text(interestsInput);
 
-    var dateInput = ($("#born").val());
-    $(".born").text(dateInput);
+    var importantInput = ($("#important").val());
+    $(".important").text(importantInput);
 
     var timeInput = ($("#music").val());
     $(".music").text(timeInput);
 
-    var flavorInput = $("input:radio[name=flavor]:checked").val();
-    $("#appointment-modal").toggle();
+    var icecream = $("input:radio[name=icecream]:checked").val();
+    $("#track-modal").toggle();
     event.preventDefault();
   });
 });
