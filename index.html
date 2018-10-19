@@ -12,47 +12,49 @@
       <div class="jumbotron" clear>
          <h1>Track Suggester</h1>
          <p id="header">But I must explain to you how all this mistaken</p>
-       </div>
-     <form id="track">
+      </div>
+      <form id="track">
        <div class="form-group">
          <label for="name">Name:</label>
          <input id="name" class="form-control" type="text">
        </div>
 
        <div class="form-group">
-         <label for="name">Email:</label>
+         <label for="email">Email:</label>
          <input id="email" class="form-control" type="text">
        </div>
 
        <div class="form-group">
-         <label for="interests">What interests you most about programming?</label>
+         <label for="interests">front-end or back-end development?</label>
          <select id="interests" class="form-control">
-           <option value="software">software </option>
-           <option value="app">app</option>
-           <option value="website">website</option>
-         </select>
-       </div>
-
-       <div class="form-group">
-         <label for="company">What kind of company do you see yourself working for?</label>
-         <select id="company" class="form-control">
-           <option value="awesome">awesome </option>
-           <option value="job">job</option>
+           <option value=" "> </option>
+           <option value="front-end">Front-end </option>
+           <option value="back-end">Back-end</option>
          </select>
        </div>
 
        <div class="radio">
-          <h2>front-end or back-end development</h2>
+          <h2>Program</h2>
           <label>
-            <input type="radio" name="dev" value="front-end" checked>
-            front-end development
+            <input type="radio" name="dev" value="software" checked>
+            Software Developer
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="dev" value="back-end">
-            back-end development
+            <input type="radio" name="dev" value="app">
+            App developer
           </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="dev" value="website">
+            web developer
+          </label>
+        </div>
+        <div class="form-group">
+          <label for="comments">comments</label>
+          <input id="comments" class="form-control" type="text">
         </div>
 
        <button type="myBtn" class="btn">Submit!</button>
@@ -61,7 +63,7 @@
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal=header">
-              <h5 class="modal-title">Appointment made!</h5>
+              <h5 class="modal-title"> Infomation:</h5>
             </div>
             <div class="modal-body">
               <dl>
@@ -69,16 +71,13 @@
                 <dd><span class="name"></span></dd>
                 <dt>Your email:</dt>
                 <dd><span class="email"></span></dd>
+                <dt>Front-end or back-end</dt>
+                <dd><span class="interests"></span></dd>
                 <dt>Program Intersts</dt>
-                <dd><span class="intersts"></span></dd>
-                <dt>company</dt>
-                <dd><span class="important"></span></dd>
-                <dt>front-end or back-end</dt>
                 <dd><span class="dev"></span></dd>
+                <dt>Comments</dt>
+                <dd><span class="comments"></span></dd>
               </dl>
-            </div>
-            <div class="modal-footer">
-            <button id="myBtn">Submit!</button>
             </div>
           </div>
         </div>

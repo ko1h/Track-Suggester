@@ -10,11 +10,11 @@ $(document).ready(function() {
     var interestsInput = ($("#interests").val());
     $(".interests").text(interestsInput);
 
-    var companyInput = ($("#company").val());
-    $(".company").text(companyInput);
-
     var devInput = $("input:radio[name=dev]:checked").val();
     $(".dev").text(devInput);
+
+    var commentsInput = ($("#comments").val());
+    $(".comments").text(commentsInput);
 
     $("#track-modal").toggle();
     event.preventDefault();
