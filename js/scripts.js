@@ -1,7 +1,15 @@
-var dev = $("input:radio[name=dev]:checked").val();
-var interests = $("#interests").val();
+$(document).ready(function() {
+  $("#track").submit(function(event) {
+    var div = $("input:radio[name=div]:checked").val();
+    var interests = parseInt($("#interests").val());
+  // var interests = $("#interests").val();
 
-
+    if (div === "software" && interests === "front-end") {
+      $('#drink').show();
+    }
+    event.preventDefault();
+  });
+});
 
 
 

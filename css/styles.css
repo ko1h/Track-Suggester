@@ -19,11 +19,9 @@
 .btn{
   border: solid;
 }
+#drinks {
+  display: none;
+}
 #comments{
   background-size: 100px;
-
-}
-
-#track-modal {
-  display: none;
 }
