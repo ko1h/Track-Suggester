@@ -14,59 +14,72 @@
      <form id="booking">
 
        <div class="form-group">
-         <label for="name">Name:</label>
-         <input id="name" class="form-control" type="text">
+         <label for="name">What kind of company do you see yourself working for?</label>
+         <select id="name" class="form-control">
+           <option value="volvo">small company </option>
+           <option value="saab">big company</option>
+           <option value="mercedes">start up</option>
+           <option value="audi">starting a new company</option>
+         </select>
        </div>
 
        <div class="form-group">
-         <label for="food">Favorite food:</label>
+         <label for="food">What interests you most about programming?</label>
          <input id="food" class="form-control" type="text">
        </div>
 
        <div class="form-group">
-         <label for="music">Favorite music:</label>
+         <label for="music">Which of the following is the most important to you?</label>
          <input id="music" class="form-control" type="text">
        </div>
 
        <div class="form-group">
-         <label for="born">When were you born?</label>
-         <input id="born" class="form-control" type="date">
+         <label for="born">Java/Android</label>
+         <input id="born" class="form-control" type="text">
        </div>
 
-       <div class="form-group">
-         <label for="color">Favorite color:</label>
-         <input id="color" class="form-control" type="color">
-       </div>
+       <div class="icecream">
+          <h2>front-end or back-end development</h2>
+          <label>
+            <input type="radio" name="flavor" value="Tomato" checked>
+            front-end development
+          </label>
+        </div>
+        <div class="icecream">
+          <label>
+            <input type="radio" name="flavor" value="Sourcream & Onion">
+            back-end development
+          </label>
+        </div>
 
        <button type="myBtn" class="btn">Submit!</button>
      </form>
-     <!-- <div id="appointment-modal" tabindex="-1" role="dialog">
-       <div class="modal-dialog" role="document">
-         <div class="modal-content">
-           <div class="modal=header">
-             <h5 class="modal-title">Appointment made!</h5>
-           </div>
-           <div class="modal-body">
-             <dl>
-               <dt>Your Name</dt>
-               <dd><span class="name"></span></dd>
-               <dt>Favorite Food</dt>
-               <dd><span class="food"></span> </dd>
-               <dt>Favorite Music</dt>
-               <dd><span class="music"></span></dd>
-               <dt>When You Were Born</dt>
-               <dd><span class="born"></span></dd>
-               <dt>Favorite Color</dt>
-               <dd><span class="color"></span></dd>
-               <dt>Worst flavor of Ice Cream is Most Definitely:</dt>
-               <dd><span class="flavor"></span></dd>
-             </dl>
-           </div>
-           <div class="modal-footer">
-               <button id="myBtn">Submit!</button>
-           </div>
-         </div>
-       </div>
-     </div> -->
+     <div id="appointment-modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal=header">
+              <h5 class="modal-title">Appointment made!</h5>
+            </div>
+            <div class="modal-body">
+              <dl>
+                <dt>Your Name</dt>
+                <dd><span class="name"></span></dd>
+                <dt>Favorite Food</dt>
+                <dd><span class="food"></span> </dd>
+                <dt>Favorite Music</dt>
+                <dd><span class="music"></span></dd>
+                <dt>When You Were Born</dt>
+                <dd><span class="born"></span></dd>
+                <dt>Worst flavor of Ice Cream is Most Definitely:</dt>
+                <dd><span class="flavor"></span></dd>
+              </dl>
+            </div>
+            <div class="modal-footer">
+                <button id="myBtn">Submit!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
