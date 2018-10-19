@@ -12,15 +12,14 @@
      <h1>Tell Us About Yourself</h1>
 
      <form id="track">
+       <div class="form-group">
+         <label for="name">Name:</label>
+         <input id="name" class="form-control" type="text">
+       </div>
 
        <div class="form-group">
-         <label for="company">What kind of company do you see yourself working for?</label>
-         <select id="company" class="form-control">
-           <option value="small company">small company </option>
-           <option value="big company">big company</option>
-           <option value="start up">start up</option>
-           <option value="starting a new">starting a new </option>
-         </select>
+         <label for="name">Email:</label>
+         <input id="email" class="form-control" type="text">
        </div>
 
        <div class="form-group">
@@ -43,26 +42,16 @@
          </select>
        </div>
 
-       <div class="form-group">
-         <label for="born">Java/Android</label>
-         <select id="name" class="form-control">
-           <option value="volvo">small company </option>
-           <option value="saab">big company</option>
-           <option value="mercedes">start up</option>
-           <option value="audi">starting a new </option>
-         </select>
-       </div>
-
        <div class="radio">
           <h2>front-end or back-end development</h2>
           <label>
-            <input type="radio" name="icecream" value="Tomato" checked>
+            <input type="radio" name="dev" value="front-end" checked>
             front-end development
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="icecream" value="Sourcream & Onion">
+            <input type="radio" name="dev" value="back-end">
             back-end development
           </label>
         </div>
@@ -78,19 +67,17 @@
             <div class="modal-body">
               <dl>
                 <dt>Your Name</dt>
-                <dd><span class="company"></span></dd>
+                <dd><span class="name"></span></dd>
                 <dt>Favorite Food</dt>
-                <dd><span class="interests"></span> </dd>
+                <dd><span class="email"></span></dd>
                 <dt>Favorite Music</dt>
                 <dd><span class="important"></span></dd>
-                <dt>When You Were Born</dt>
-                <dd><span class="born"></span></dd>
-                <dt>Worst flavor of Ice Cream is Most Definitely:</dt>
-                <dd><span class="icecream"></span></dd>
+                <dt>front-end or back-end</dt>
+                <dd><span class="radio"></span></dd>
               </dl>
             </div>
             <div class="modal-footer">
-                <button id="myBtn">Submit!</button>
+            <button id="myBtn">Submit!</button>
             </div>
           </div>
         </div>

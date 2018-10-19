@@ -1,8 +1,11 @@
 $(document).ready(function() {
   $("form#track").submit(function(event) {
     event.preventDefault();
-    var companyinput = ($("#company").val());
-    $(".company").text(companyinput);
+    var nameinput = ($("#name").val());
+    $(".name").text(nameinput);
+
+    var emailInput = ($("#email").val());
+    $(".email").text(emailInput);
 
     var interestsInput = ($("#interests").val());
     $(".interests").text(interestsInput);
@@ -10,10 +13,8 @@ $(document).ready(function() {
     var importantInput = ($("#important").val());
     $(".important").text(importantInput);
 
-    var timeInput = ($("#music").val());
-    $(".music").text(timeInput);
 
-    var icecream = $("input:radio[name=icecream]:checked").val();
+    var dev = $("input:radio[name=dev]:checked").val();
     $("#track-modal").toggle();
     event.preventDefault();
   });
