@@ -1,4 +1,21 @@
 
+.container{
+  border: solid;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.jumbotron{
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: sans-serif;
+  text-align: center;
+}
+#myBtn{
+  border: solid;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 #track-modal {
   display: none;
 }
