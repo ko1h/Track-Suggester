@@ -1,27 +1,23 @@
-# _About Me_
+# _Track suggester_
 
-#### _Epicodus HTML/CSS Exercise, 10.12.2018_
+#### _Epicodus HTML/CSS/JS Exercise, 10.19.2018_
 
 #### By _Kohichi Horii_
 
 ## Description
 
-_This webpage show some the recently created projects, brief Description of about myself. The hobbies and interest I have and lastly the education and why I am attending Epicodus._
+_This webpage suggest asks future students a series of questions about themselves and provides a track suggestion based on their answers._
 
 ## Setup/Installation Requirements
 
 * _Clone this repository_
-<<<<<<< HEAD
-* _github link https://mkx3ae07.github.io/portfolio/
+* _github link
 * _Open directory using terminal
 * _use a text editor to view repository
 
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
-
 ## Known Bugs
 
-_Background will not load unless device is on the internet._
+_Code does not work. Will only load the html_
 
 ## Support and contact details
 
@@ -29,7 +25,7 @@ _I am still working on the webpage. But if you find any issue feel free to conta
 
 ## Technologies Used
 
-_This webpage uses HTML, CSS and also bootstrap._
+_This webpage uses HTML, CSS, Bootstrap, jquery 3.3.1 and JS._
 
 ### License
 

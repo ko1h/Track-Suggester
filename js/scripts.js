@@ -1,13 +1,12 @@
 $(document).ready(function() {
-  $("#track").submit(function(event) {
-    var div = $("input:radio[name=div]:checked").val();
+  $("form#track").submit(function(event) {
+    event.preventDefault();
     var interests = parseInt($("#interests").val());
-  // var interests = $("#interests").val();
+    var div = $("input:radio[name=div]:checked").val();
 
     if (div === "software" && interests === "front-end") {
-      $('#drink').show();
-    }
-    event.preventDefault();
+      $('#track-modal').show();
+    });
   });
 });
 
