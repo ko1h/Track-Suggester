@@ -11,5 +11,10 @@ $(document).ready(function() {
       $("#nameInsert").append(name)
       $("#tracks").text("Ruby/Rails")
     }
+    else if (interests === "front-end" && dev === "app") {
+      $("#results").show()
+      $("#nameInsert").append(name)
+      $("#tracks").text("Java/Android")
+    }
   });
 });
