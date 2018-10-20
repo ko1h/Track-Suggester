@@ -11,7 +11,7 @@ _This webpage suggest asks future students a series of questions about themselve
 ## Setup/Installation Requirements
 
 * _Clone this repository_
-* _github link
+* _github link https://github.com/ko1h/Track-Suggester.git
 * _Open directory using terminal
 * _use a text editor to view repository
 

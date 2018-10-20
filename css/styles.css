@@ -1,27 +1,19 @@
-.container{
+.container {
   border: solid;
   padding-top: 10px;
   padding-bottom: 10px;
 
 }
-.jumbotron{
+.jumbotron {
   background-color: #82CAFF;
   padding-top: 10px;
   padding-bottom: 10px;
   font-family: sans-serif;
   text-align: center;
 }
-.modal-title{
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-}
-.btn{
+.btn {
   border: solid;
 }
-#track-modal {
+#results {
   display: none;
-}
-#comments{
-  background-size: 100px;
 }

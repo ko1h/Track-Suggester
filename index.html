@@ -10,78 +10,44 @@
   <body>
     <div class="container">
       <div class="jumbotron" clear>
-         <h1>Track Suggester</h1>
-         <p id="header">But I must explain to you how all this mistaken</p>
+       <h1>Track Suggester</h1>
+       <p id="header">But I must explain to you how all this mistaken</p>
       </div>
       <form id="track">
-       <div class="form-group">
-         <label for="name">Name:</label>
-         <input id="name" class="form-control" type="text">
-       </div>
-
-       <div class="form-group">
-         <label for="email">Email:</label>
-         <input id="email" class="form-control" type="text">
-       </div>
-
-       <div class="form-group">
-         <label for="interests">front-end or back-end development?</label>
-         <select id="interests" class="form-control">
-           <option value=" "> </option>
-           <option value="front-end">Front-end </option>
-           <option value="back-end">Back-end</option>
-         </select>
-       </div>
-
-       <div class="radio">
-          <h2>Program</h2>
-          <label>
-            <input type="radio" name="dev" value="software" checked>
-            Software Developer
-          </label>
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input id="name" class="form-control" type="text">
         </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="dev" value="app">
-            App developer
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="dev" value="website">
-            web developer
-          </label>
-        </div>
+         <div class="form-group">
+           <label for="email">Email:</label>
+           <input id="email" class="form-control" type="text">
+         </div>
+         <div class="form-group">
+           <label for="interests">front-end or back-end development?</label>
+           <select id="interests" class="form-control">
+             <option>choose </option>
+             <option value="front-end">Front-end </option>
+             <option value="back-end">Back-end</option>
+           </select>
+         </div>
+         <div class="form-group">
+           <label for="dev">program?</label>
+           <select id="dev" class="form-control">
+             <option value="software">software </option>
+             <option value="app">app </option>
+             <option value="website">website</option>
+           </select>
+         </div>
         <div class="form-group">
           <label for="comments">comments</label>
           <input id="comments" class="form-control" type="text">
         </div>
 
-       <button type="myBtn" class="btn">Submit!</button>
-     </form>
-     <div id="track-modal" tabindex="-1" role="dialog">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal=header">
-              <h5 class="modal-title"> Infomation:</h5>
-            </div>
-            <div class="modal-body">
-              <dl>
-                <dt>Your Name:</dt>
-                <dd><span class="name"></span></dd>
-                <dt>Your email:</dt>
-                <dd><span class="email"></span></dd>
-                <dt>Front-end or back-end</dt>
-                <dd><span class="interests"></span></dd>
-                <dt>Program Intersts</dt>
-                <dd><span class="dev"></span></dd>
-                <dt>Comments</dt>
-                <dd><span class="comments"></span></dd>
-              </dl>
-              </div>
-            </div>
-          </div>
-        </div>
+        <button type="myBtn" class="btn">Submit!</button>
+
+      </form>
+      <div id="results" class="bg-success">
+        <p><span id="nameInsert"></span>, based on the answers you provided, we think you should enroll in the <span id="tracks"></span> track!</p>
       </div>
     </div>
   </body>
