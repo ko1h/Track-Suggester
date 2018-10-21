@@ -17,7 +17,7 @@ _This webpage suggest asks future students a series of questions about themselve
 
 ## Known Bugs
 
-_Code does not work. Will only load the html_
+_Code insert with repeat itself unless refreshed page._
 
 ## Support and contact details
 
