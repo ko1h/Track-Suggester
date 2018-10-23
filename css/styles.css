@@ -16,4 +16,15 @@
 }
 #results {
   display: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+#emailInsert {
+  text-decoration: underline;
+}
+#trackInsert{
+  font-color: #82CAFF;
+  font-family: sans-serif;
+  text-decoration: underline;
 }

@@ -11,7 +11,7 @@
     <div class="container">
       <div class="jumbotron" clear>
        <h1>Track Suggester</h1>
-       <p id="header">But I must explain to you how all this mistaken</p>
+       <p id="header">Which Programing Language Is Best For You</p>
       </div>
       <form id="track">
         <div class="form-group">
@@ -30,7 +30,7 @@
         <div class="form-group">
           <label for="interests">front-end or back-end development?</label>
           <select id="interests" class="form-control">
-            <option>choose </option>
+            <option>Please Choose </option>
             <option value="front-end">Front-end </option>
             <option value="back-end">Back-end</option>
           </select>
@@ -38,6 +38,7 @@
         <div class="form-group">
           <label for="dev">program?</label>
           <select id="dev" class="form-control">
+            <option>Please Choose </option>
             <option value="software">software </option>
             <option value="app">app </option>
             <option value="website">website</option>
@@ -45,8 +46,8 @@
         </div>
           <button type="myBtn" class="btn">Submit!</button>
       </form>
-      <div id="results">
-        <p><span id="nameInsert"></span>, we recommend you taking the <span id="trackInsert"></span> track!. We will be emailing back shortly at: <span id="emailInsert"></span> and answearing any comments or question you may <span id ="commentInsert"></span>.</p>
+      <div id="results" class="well">
+        <p>Dear <strong><span id="nameInsert"></span></strong>, we recommend you taking the <span id="trackInsert"></span> track!. We will be emailing back shortly at: <span id="emailInsert"></span> and answering any comments or question you may have had: <span id ="commentInsert"></span>.</p>
       </div>
     </div>
   </body>
